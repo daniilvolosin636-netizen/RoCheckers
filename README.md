@@ -1,86 +1,107 @@
-# ♟️ RoCheckers — Roblox Checkers Gate
+# ♟️ RoCheckers
 
 **English** | [Русский](#русский)
 
-A browser extension that adds checkers-inspired rank badges to Roblox profiles.
+RoCheckers is a browser extension that adds a checkers challenge before entering a Roblox game mode.
 
-## ✨ Features
+When you click **Play**, a checkers game appears. You must defeat the bot to gain access to the game mode.
 
-- ♙ **Pawn** — default rank for regular users.
-- ♕ **Queen** — special rank.
-- ♔ **King** — special rank.
-- 🎨 Custom extension icon.
-- ⚡ Lightweight browser extension.
-- ☁️ Cloudflare Worker backend with KV storage.
+## 🎮 How It Works
 
-## 📥 Download & Install
+1. Open a supported Roblox game mode.
+2. Click **Play**.
+3. A checkers challenge appears.
+4. Choose your moves and try to defeat the bot.
+5. Win the match to access the game mode!
 
-### Download the extension
+## 🎯 Difficulty Levels
+
+RoCheckers features three difficulty levels based on your Roblox account type:
+
+- 🟢 **Roblox Kids** — Easy
+- 🟡 **Roblox Select** — Medium
+- 🔴 **Regular Roblox** — Hard
+
+Each mode offers a different level of challenge.
+
+## ♙ Extension Badge
+
+Users who have the RoCheckers extension installed can receive a ♙ Pawn badge on their Roblox profile.
+
+## 📥 Download & Installation
 
 1. Open the [RoCheckers GitHub repository](https://github.com/daniilvolosin636-netizen/RoCheckers).
-2. Click the green **Code** button.
-3. Select **Download ZIP**.
-4. Extract the downloaded ZIP archive on your computer.
+2. Click **Code → Download ZIP**.
+3. Extract the downloaded archive.
+4. Open `chrome://extensions/` in Google Chrome.
+5. Enable **Developer mode**.
+6. Click **Load unpacked** and select the folder containing `manifest.json`.
 
-### Install in Google Chrome
+## 👥 Creators
 
-1. Open Chrome and navigate to `chrome://extensions/`.
-2. Enable **Developer mode**.
-3. Click **Load unpacked**.
-4. Select the extracted extension folder containing `manifest.json`.
+- [Creator 1 — Roblox Profile](https://www.roblox.com/users/1388899632/profile)
+- [Creator 2 — Roblox Profile](https://www.roblox.com/users/1515075892/profile)
 
-The extension should now appear in your Chrome extensions list.
-
-> **Note:** GitHub downloads the project source code, not a Chrome Web Store package. The extension folder must contain `manifest.json`.
-
-## ⚙️ Backend Configuration
-
-RoCheckers uses a Cloudflare Worker backend and a KV namespace.
-
-To deploy your own instance:
-
-1. Deploy the Worker code from the `server` directory.
-2. Create a Cloudflare KV namespace.
-3. Configure the `USERS` KV binding in Worker settings.
-4. Set the correct Worker URL in the extension configuration.
-
-## 🛠️ Built With
+## 🛠️ Technologies
 
 - JavaScript
 - Chrome Extensions API
 - Cloudflare Workers
 - Cloudflare KV
 
-## 🔒 Security
-
-Never commit API tokens, private keys, or other secrets to this repository.
-
-## 📄 License
-
-No license has been specified yet. All rights reserved unless a license is added to this repository.
-
 ---
 
 <a id="русский"></a>
 
-# 🇷🇺 Русская версия
+# 🇷🇺 RoCheckers — проверка перед входом в режим Roblox
 
-RoCheckers — это браузерное расширение, которое добавляет значки рангов в стиле шашек в профили Roblox.
+RoCheckers — это браузерное расширение, которое добавляет испытание в шашки перед входом в игровой режим Roblox.
 
-## ✨ Возможности
+Когда ты нажимаешь **«Играть»**, появляется игра в шашки. Чтобы получить доступ к режиму, нужно победить бота.
 
-- ♙ **Pawn (Пешка)** — стандартный ранг обычного пользователя.
-- ♕ **Queen (Королева)** — особый ранг.
-- ♔ **King (Король)** — особый ранг.
-- 🎨 Собственная иконка расширения.
-- ⚡ Лёгкое браузерное расширение.
-- ☁️ Серверная часть на Cloudflare Workers с хранилищем KV.
+## 🎮 Как это работает
+
+1. Открой поддерживаемый игровой режим Roblox.
+2. Нажми **«Играть»**.
+3. Появится испытание в шашки.
+4. Делай ходы и постарайся победить бота.
+5. Победи в партии, чтобы получить доступ к игровому режиму!
+
+## 🎯 Уровни сложности
+
+В RoCheckers предусмотрены три уровня сложности в зависимости от типа аккаунта Roblox:
+
+- 🟢 **Roblox Kids** — лёгкий уровень.
+- 🟡 **Roblox Select** — средний уровень.
+- 🔴 **Обычный Roblox** — сложный уровень.
+
+Каждый режим предлагает свой уровень сложности.
+
+## ♙ Значок расширения
+
+Пользователи, у которых установлено расширение RoCheckers, могут получить значок ♙ пешки в своём профиле Roblox.
 
 ## 📥 Скачать и установить
 
-### Скачать расширение
-
 1. Открой [репозиторий RoCheckers на GitHub](https://github.com/daniilvolosin636-netizen/RoCheckers).
-2. Нажми зелёную кнопку **Code**.
-3. Выбери **Download ZIP**.
-4. Распакуй скач
+2. Нажми **Code → Download ZIP**.
+3. Распакуй скачанный архив.
+4. Открой `chrome://extensions/` в Google Chrome.
+5. Включи **Режим разработчика**.
+6. Нажми **Загрузить распакованное** и выбери папку, в которой находится `manifest.json`.
+
+## 👥 Создатели
+
+- [Создатель 1 — профиль Roblox](https://www.roblox.com/users/1388899632/profile)
+- [Создатель 2 — профиль Roblox](https://www.roblox.com/users/1515075892/profile)
+
+## 🛠️ Используемые технологии
+
+- JavaScript
+- Chrome Extensions API
+- Cloudflare Workers
+- Cloudflare KV
+
+---
+
+**RoCheckers — заслужи свой вход! ♟️**
