@@ -56,9 +56,6 @@ RoCheckers — браузерное расширение для Chrome, Edge и 
 | Июнь – август | Лето |
 | Сентябрь – ноябрь | Осень |
 
-### 🪵 Тема сайта «Шашки · Дерево»
-
-Бесплатная тема оформления Roblox, Roblox Plus не нужен. Включается в **Настройки → Browser preferences**, рядом с остальными темами. Когда она включена, доска в игре тоже становится деревянной.
 
 ## ♙ Значки
 
@@ -180,9 +177,6 @@ The theme changes automatically with the date. Holidays take priority over seaso
 | June – August | Summer |
 | September – November | Autumn |
 
-### 🪵 Site theme "Checkers · Wood"
-
-A free Roblox site theme, no Roblox Plus needed. Turn it on in **Settings → Browser preferences**, next to the other themes. While it's on, the in-game board is wooden too.
 
 ## ♙ Badges
 
